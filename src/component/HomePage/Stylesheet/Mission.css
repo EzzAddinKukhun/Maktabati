@@ -1,0 +1,89 @@
+.mission {
+    margin-top: 50px;
+}
+
+.mission-img{
+    height: 400px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;  
+    padding: 20px;
+}
+
+.mission-text h2{
+    text-align: left;
+    margin-bottom: 45px;
+}
+
+.mission-text h6{
+    text-align: left;
+    margin-top: 45px;
+    color: #888888;
+}
+
+
+.mission-text{
+    height: 400px;
+    width: 60%;
+    padding: 50px;
+    text-align: justify;
+}
+
+.profilePic{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    display: block;
+    margin-left: 35%;
+    box-shadow: 5px 3px 19px 2px #888888;
+
+}
+
+.circular-photo{
+    width:100%;
+  
+
+}
+
+.info{
+    letter-spacing: 5px;
+}
+
+.info h2{
+    font-size: 26px;
+}
+
+.sell{
+    height: 350px;
+}
+
+
+.cimg1,.cimg2{
+    height: 300px;
+    transition: 1s ease-in;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.img1,.img2{
+    /* width: 100%; */
+    height: 100%;
+    transition: 1s ease-in;
+
+}
+
+
+.cimg1:hover .img1{
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
+}
+
+.cimg2:hover .img2{
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
+}
+
+.sell h2{
+    margin-bottom: 40px;
+}

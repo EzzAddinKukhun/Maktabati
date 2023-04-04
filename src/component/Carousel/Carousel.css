@@ -1,0 +1,120 @@
+.header{
+    display: block;
+}
+
+.carousel-content{
+    width: 100%;
+    height: 600px;
+    position: absolute;
+}
+
+.carousel-caption{
+    position: absolute;
+    top:0;
+    left: 0;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-caption h1{
+    font-size: 96px;
+}
+
+.carousel-caption h6{
+    font-size: 20px;
+}
+
+.shop-now{
+    width: 170px;
+    height: 65px;
+    border-radius: 50px;
+    margin-top: 25px;
+    background-color: transparent;
+    
+}
+
+.carousel-img{
+    width: 100%;
+    height: 600px;
+}
+
+.next-btn,.prev-btn{
+    width: 40%;
+    height: 600px;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    padding: 40px;
+
+   
+}
+
+.next-btn button,.prev-btn button {
+    border: none;
+    background-color: transparent;
+}
+
+.next-btn button i,.prev-btn button i{
+    font-size: 30px;
+}
+
+.prev-btn{
+    justify-content: left;
+    left: 0;
+}
+
+.idc2,.idc3{
+    display:  none;
+}
+#im2,#im3{
+    display: none;
+}
+
+
+.idc3{
+   position: absolute;
+   right: 7%;
+   top: 20%; 
+   text-align: right;
+}
+
+.paragraph{
+    font-size: 16px;
+    text-align: justify;
+    margin-bottom: 100px;
+    width: 26%;
+}
+
+.idc2{
+    position: absolute;
+    left: 10%;
+    text-align: left;
+}
+
+.idc2 .paragraph{
+    text-align: justify;
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+.idc3 p{
+    text-align:  right;
+    margin-bottom:20px;
+    margin-top: 30px;
+  
+}
+
+.idc3 h1{
+    font-size: 50px;
+}
+
+
+.idc2 h6{
+    text-align: left;
+}
+
+.idc3 h6{
+    text-align: right;
+}

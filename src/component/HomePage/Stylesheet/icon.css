@@ -1,0 +1,31 @@
+.blog-img{
+    width: 100%;
+    
+}
+
+.blog-title{
+    color: black;
+    font-size: 18px;
+    text-align: left;
+}
+
+.author{
+    font-size: 15px;
+    color: gray;
+    text-align: left;
+}
+
+.start-blog{
+    font-size: 12px;
+    text-align: left;
+    
+}
+.blog-img{
+    transition: 1s ease;
+
+}
+
+.blog-img:hover{
+    transition: 1s ease;
+    transform: scale(1.1);
+}
